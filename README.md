@@ -1,0 +1,1 @@
+/* CSS generated with assistance from OpenAI ChatGPT. */

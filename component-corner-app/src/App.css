@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+}
+
+.products-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+.products-section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
